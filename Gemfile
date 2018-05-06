@@ -11,16 +11,19 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
 # Use sqlite3 as the database for Active Record
-#sql3 for development and test database
+#sqlite3 for development and test database
 gem 'sqlite3', group: [:development,:test]
 
-#Postgres for productioni databse
+#Postgres for production database
 gem 'pg', group: :production
 
 #12 facor for heroku
 gem 'rails_12factor', group: :production
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
+
+#add  bootstrap to make app better
+gem 'bootstrap-sass'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
